@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 61a838cc8b888bf5404970b3043da8ef7fad46e6 Wagner Daimling Fontão <Wdestroier@gmail.com> 1735955690 -0300	commit (initial): Initialize project
+61a838cc8b888bf5404970b3043da8ef7fad46e6 c323e6deb7e4ff31c275032cf8f4803c0da11794 Wagner Daimling Fontão <Wdestroier@gmail.com> 1735997882 -0300	commit: Prediction endpoint
+c323e6deb7e4ff31c275032cf8f4803c0da11794 e7a8a09d5fa99c7a7e5f685181b856622d78751b Wagner Daimling Fontão <Wdestroier@gmail.com> 1736010153 -0300	commit: Embed model
+e7a8a09d5fa99c7a7e5f685181b856622d78751b 4a2284b550bcd25a9e1731c4ea9e5735fd7d1f3c Wagner Daimling Fontão <Wdestroier@gmail.com> 1736012511 -0300	commit: Configure Swagger

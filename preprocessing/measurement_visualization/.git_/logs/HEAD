@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 d62bf2462180ca6f5fde470fff0a02022a605007 Wagner Daimling Fontão <Wdestroier@gmail.com> 1735179143 -0300	commit (initial): Visualization with fl_chart
+d62bf2462180ca6f5fde470fff0a02022a605007 3fea7586a9d3a959af15edecbd5fdeb6f53e86ae Wagner Daimling Fontão <Wdestroier@gmail.com> 1735522518 -0300	commit: Zoom in and out with syncfusion charts
+3fea7586a9d3a959af15edecbd5fdeb6f53e86ae 178b92bb0e8adcc323d31e153ecd213f39212d88 Wagner Daimling Fontão <Wdestroier@gmail.com> 1735535776 -0300	commit: Tool to mark ranges which should emit alerts
