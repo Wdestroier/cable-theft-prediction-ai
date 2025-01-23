@@ -1,0 +1,52 @@
+C:\Users\Wdest\Desktop\tensorflow>python tensorflow/python/tools/saved_model_cli.py show --dir C:\Users\Wdest\Desktop\tcc3_2_savedmodel --all
+2025-01-04 07:44:54.573849: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-01-04 07:44:55.396182: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+
+MetaGraphDef with tag-set: 'serve' contains the following SignatureDefs:
+
+signature_def['__saved_model_init_op']:
+  The given SavedModel SignatureDef contains the following input(s):
+  The given SavedModel SignatureDef contains the following output(s):
+    outputs['__saved_model_init_op'] tensor_info:
+        dtype: DT_INVALID
+        shape: unknown_rank
+        name: NoOp
+  Method name is:
+
+signature_def['serve']:
+  The given SavedModel SignatureDef contains the following input(s):
+    inputs['input_layer_11'] tensor_info:
+        dtype: DT_FLOAT
+        shape: (-1, 20, 2)
+        name: serve_input_layer_11:0
+  The given SavedModel SignatureDef contains the following output(s):
+    outputs['output_0'] tensor_info:
+        dtype: DT_FLOAT
+        shape: (-1, 1)
+        name: StatefulPartitionedCall:0
+  Method name is: tensorflow/serving/predict
+
+signature_def['serving_default']:
+  The given SavedModel SignatureDef contains the following input(s):
+    inputs['input_layer_11'] tensor_info:
+        dtype: DT_FLOAT
+        shape: (-1, 20, 2)
+        name: serving_default_input_layer_11:0
+  The given SavedModel SignatureDef contains the following output(s):
+    outputs['output_0'] tensor_info:
+        dtype: DT_FLOAT
+        shape: (-1, 1)
+        name: StatefulPartitionedCall_1:0
+  Method name is: tensorflow/serving/predict
+The MetaGraph with tag set ['serve'] contains the following ops: {'TensorListReserve', 'TensorListStack', 'Placeholder', 'AddV2', 'StridedSlice', 'Squeeze', 'Split', 'ShardedFilename', 'DisableCopyOnRead', 'VarIsInitializedOp', 'Sigmoid', 'Pack', 'MatMul', 'Max', 'TensorListFromTensor', 'While', 'StatefulPartitionedCall', 'VarHandleOp', 'Select', 'StaticRegexFullMatch', 'Shape', 'Fill', 'SaveV2', 'Transpose', 'Mul', 'StringJoin', 'Range', 'Identity', 'Sub', 'MergeV2Checkpoints', 'AssignVariableOp', 'ReadVariableOp', 'Const', 'Tanh', 'RestoreV2', 'NoOp'}
+
+Concrete Functions:2025-01-04 07:44:56.947639: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+  Function Name: 'serve'
+    Option #1
+      Callable with:
+        Argument #1
+          input_layer_11: TensorSpec(shape=(None, 20, 2), dtype=tf.float32, name='input_layer_11')
+
+C:\Users\Wdest\Desktop\tensorflow>
